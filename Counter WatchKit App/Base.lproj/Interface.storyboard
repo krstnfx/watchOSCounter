@@ -13,18 +13,17 @@
                         <label width="136" alignment="left" text="0" textAlignment="center" id="yF3-Hc-QcK"/>
                         <button width="1" alignment="left" title="Increment" id="6ON-6O-oYy">
                             <connections>
-                                <action selector="incrementCounter" destination="AgC-eL-Hgc" id="KlW-Op-cBb"/>
+                                <action selector="incrementCounter" destination="AgC-eL-Hgc" id="mtl-bD-kGW"/>
                             </connections>
                         </button>
                         <button width="1" alignment="left" title="Save" id="aqT-7X-PXt">
                             <connections>
-                                <action selector="saveCounter" destination="AgC-eL-Hgc" id="Ifg-Z9-ygV"/>
+                                <action selector="saveCounter" destination="AgC-eL-Hgc" id="mN7-g2-dVk"/>
                             </connections>
                         </button>
                     </items>
                     <connections>
-                        <outlet property="counterLabel" destination="yF3-Hc-QcK" id="fKl-jQ-ona"/>
-                        <outlet property="hitButton" destination="6ON-6O-oYy" id="0MR-dK-Bhf"/>
+                        <outlet property="counterLabel" destination="yF3-Hc-QcK" id="mc5-YV-WSl"/>
                     </connections>
                 </controller>
             </objects>
