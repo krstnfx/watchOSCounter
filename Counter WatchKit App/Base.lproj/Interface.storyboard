@@ -11,7 +11,7 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Counter_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label width="136" alignment="left" text="0" textAlignment="center" id="yF3-Hc-QcK"/>
-                        <button width="1" alignment="left" title="Hit" id="6ON-6O-oYy">
+                        <button width="1" alignment="left" title="Increment" id="6ON-6O-oYy">
                             <connections>
                                 <action selector="incrementCounter" destination="AgC-eL-Hgc" id="KlW-Op-cBb"/>
                             </connections>

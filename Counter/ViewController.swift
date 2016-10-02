@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
-        self.title = "Counter"
+        self.title = "Count List"
 
         self.tableView.dataSource = self
     }
