@@ -54,17 +54,9 @@ extension ViewController: WCSessionDelegate {
     }
     
     //Handlers in case the watch and phone watch connectivity session becomes disconnected
-    func sessionDidDeactivate(_ session: WCSession) {
-        
-    }
-    
-    func sessionDidBecomeInactive(_ session: WCSession) {
-        
-    }
-    
-    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
-        
-    }
+    func sessionDidDeactivate(_ session: WCSession) {}
+    func sessionDidBecomeInactive(_ session: WCSession) {}
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {}
 }
 
 extension ViewController: UITableViewDataSource {
