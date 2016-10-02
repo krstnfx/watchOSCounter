@@ -8,10 +8,10 @@
 
 import WatchKit
 import Foundation
-//2 - Import Watch Connectivity
+//2 - Import Watch Connectivity framework
 import WatchConnectivity
 
-//3 - Replace your class InterfaceController with this line:
+//3 - Add WCSessionDelegate to class definition
 class InterfaceController: WKInterfaceController, WCSessionDelegate {
 
     @IBOutlet var counterLabel: WKInterfaceLabel!
