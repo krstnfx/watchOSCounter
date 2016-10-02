@@ -8,14 +8,18 @@
 
 import WatchKit
 import Foundation
+//2 - Import Watch Connectivity
 import WatchConnectivity
 
+//3 - Replace your class InterfaceController with this line:
 class InterfaceController: WKInterfaceController, WCSessionDelegate {
 
     @IBOutlet var counterLabel: WKInterfaceLabel!
     
-    var counter = 0;
+    //1 - Create a variable for your counter
+    var counter = 0
     
+    //4 - Set up Watch Connectivity
     private let session : WCSession? = WCSession.isSupported() ? WCSession.default() : nil
     
     override init() {
@@ -45,6 +49,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         super.didDeactivate()
     }
 
+    //5 - Setup your saveCounter() function
     @IBAction func saveCounter() {
         let applicationData = ["counterValue" : counter]
         
@@ -63,6 +68,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         }
     }
     
+    //6 - Setup your incrementCounter() function
     @IBAction func incrementCounter() {
         counter+=1;
         counterLabel.setText(String(counter))
