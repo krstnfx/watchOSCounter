@@ -13,12 +13,12 @@
                         <label width="136" alignment="left" text="0" textAlignment="center" id="yF3-Hc-QcK"/>
                         <button width="1" alignment="left" title="Increment" id="6ON-6O-oYy">
                             <connections>
-                                <action selector="incrementCounter" destination="AgC-eL-Hgc" id="mtl-bD-kGW"/>
+                                <action selector="incrementCounter" destination="AgC-eL-Hgc" id="ZSJ-ow-nNF"/>
                             </connections>
                         </button>
                         <button width="1" alignment="left" title="Save" id="aqT-7X-PXt">
                             <connections>
-                                <action selector="saveCounter" destination="AgC-eL-Hgc" id="mN7-g2-dVk"/>
+                                <action selector="saveCounter" destination="AgC-eL-Hgc" id="l0v-yp-H2N"/>
                             </connections>
                         </button>
                     </items>
