@@ -64,7 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C20C367D1DA1BF83006226B5 /* CodeSnippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippets.swift; sourceTree = "<group>"; };
+		C2BCDC411DB3F79300C74C77 /* CodeSnippets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeSnippets.swift; sourceTree = "<group>"; };
 		C2C2FB2D1D8F3C0D00EBA840 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C2FB301D8F3C0D00EBA840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C2FB321D8F3C0D00EBA840 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		C2C2FB521D8F3C0D00EBA840 /* Counter WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C20C367D1DA1BF83006226B5 /* CodeSnippets.swift */,
+				C2BCDC411DB3F79300C74C77 /* CodeSnippets.swift */,
 				C2C2FB531D8F3C0D00EBA840 /* InterfaceController.swift */,
 				C2C2FB551D8F3C0D00EBA840 /* ExtensionDelegate.swift */,
 				C2C2FB571D8F3C0D00EBA840 /* Assets.xcassets */,

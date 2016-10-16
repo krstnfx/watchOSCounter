@@ -42,9 +42,9 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: WCSessionDelegate {
-        
-    func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: @escaping ([String : Any]) -> Void) {
-        //Use this to update the UI instantaneously (otherwise, takes a little while)
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        //Dispatch to main thread to update the UI instantaneously (otherwise, takes a little while)
         DispatchQueue.main.async {
             if let counterValue = message["counterValue"] as? Int {
                 self.counterData.append(counterValue)
