@@ -62,4 +62,12 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
             });
         }
     }
+    
+    /*
+     * 7 - Setup your clearCounter() function
+     */
+    @IBAction func clearCounter() {
+        counter = 0;
+        counterLabel.setText(String(counter))
+    }
 }
