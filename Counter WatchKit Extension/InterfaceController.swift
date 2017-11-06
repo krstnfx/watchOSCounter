@@ -28,7 +28,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     /*
      * 4 - Set up Watch Connectivity
      */
-    private let session : WCSession? = WCSession.isSupported() ? WCSession.default() : nil
+    private let session : WCSession? = WCSession.isSupported() ? WCSession.default : nil
     
     override init() {
         super.init()
@@ -46,6 +46,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     @IBAction func incrementCounter() {
         counter+=1;
         counterLabel.setText(String(counter))
+        WKInterfaceDevice.current().play(.success)
     }
     
     /*
