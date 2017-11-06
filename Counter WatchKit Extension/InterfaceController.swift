@@ -46,7 +46,6 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     @IBAction func incrementCounter() {
         counter+=1;
         counterLabel.setText(String(counter))
-        WKInterfaceDevice.current().play(.success)
     }
     
     /*
