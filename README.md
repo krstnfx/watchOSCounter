@@ -1,3 +1,3 @@
-# watchOS3Counter
+# watchOSCounter
 
-Slides: https://github.com/kristinathai/watchOS3Counter/tree/master/Slides%20and%20Videos
+Slides: https://github.com/kristinathai/watchOSCounter/tree/master/Slides%20and%20Videos
